@@ -2,9 +2,9 @@
 $currentFile = basename($_SERVER['PHP_SELF']);
 
 // base path
-$adminRoot = '/project/admin/';      // ไฟล์ที่อยู่ใน admin ตรง ๆ
-$adminTime = '/project/admin/time/'; // ไฟล์ที่อยู่ใน admin/time
-$employeeBase = '/project/employee/';
+$adminRoot = '/jst-industry/admin/';      // ไฟล์ที่อยู่ใน admin ตรง ๆ
+$adminTime = '/jst-industry/admin/time/'; // ไฟล์ที่อยู่ใน admin/time
+$employeeBase = '/jst-industry/employee/';
 ?>
 
 <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block sidebar border-end">
