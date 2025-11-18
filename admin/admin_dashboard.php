@@ -57,16 +57,16 @@ include '../partials/header.php';
                     <h5 class="mb-0">เมนูหลัก</h5>
                 </div>
                 <div class="list-group list-group-flush">
-                    <a href="admin_time_batch_select.php" class="list-group-item list-group-item-action">
+                    <a href=" /admin/time/admin_time_batch_select.php" class="list-group-item list-group-item-action">
                         บันทึกเวลาจากบัตรตอก (ครั้งละ 15 วัน)
-                    </a>
-                    <a href="admin_time_summary.php" class="list-group-item list-group-item-action">
+                        </a>
+                    <a href=" /admin/time/admin_time_summary.php" class="list-group-item list-group-item-action">
                         สรุปเวลาทำงาน 15 วัน รายพนักงาน
                     </a>
-                    <a href="admin_time_edit.php" class="list-group-item list-group-item-action">
+                    <a href=" /admin/time/admin_time_edit.php" class="list-group-item list-group-item-action">
                         แก้ไขเวลาย้อนหลัง (ตามวัน/พนักงาน)
                     </a>
-                    <a href="report_monthly.php" class="list-group-item list-group-item-action">
+                    <a href=" /admin/time/report_monthly.php" class="list-group-item list-group-item-action">
                         รายงานเวลาทำงานทั้งเดือน (ทุกพนักงาน)
                     </a>
                     <a href="../employee/employee_list.php" class="list-group-item list-group-item-action">
