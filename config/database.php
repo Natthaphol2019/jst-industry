@@ -1,5 +1,5 @@
 <?php
-$host = "localhost";
+$host = "mysql";
 $database   = "jst_industry";
 $username = "jst_industry";
 $password = "2N-9OZxJ8Y/PvM-b";

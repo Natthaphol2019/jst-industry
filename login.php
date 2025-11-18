@@ -12,16 +12,16 @@ if (!empty($_SESSION['user'])) {
     $role = $_SESSION['user']['role'] ?? '';
 
     if ($role === 'admin' || $role === 'hr') {
-        header("Location: /project/admin/admin_dashboard.php");
+        header("Location: /admin/admin_dashboard.php");
         exit;
     } elseif ($role === 'employee') {
-        header("Location: /project/employee/employee_dashboard.php");
+        header("Location: /employee/employee_dashboard.php");
         exit;
     } else {
         // role แปลก ๆ ให้เคลียร์ session ทิ้งแล้วกลับไปหน้า login
         session_unset();
         session_destroy();
-        header("Location: /project/login.php?error=invalid_role");
+        header("Location: /login.php?error=invalid_role");
         exit;
     }
 }
@@ -62,16 +62,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $role = $user['role'];
 
         if ($role === 'admin' || $role === 'hr') {
-            header("Location: /project/admin/admin_dashboard.php");
+            header("Location: /admin/admin_dashboard.php");
             exit;
         } elseif ($role === 'employee') {
-            header("Location: /project/employee/employee_dashboard.php");
+            header("Location: /employee/employee_dashboard.php");
             exit;
         } else {
             // role แปลก ๆ
             session_unset();
             session_destroy();
-            header("Location: /project/login.php?error=invalid_role");
+            header("Location: /login.php?error=invalid_role");
             exit;
         }
     } else {
